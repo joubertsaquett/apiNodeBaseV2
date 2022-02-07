@@ -2,7 +2,6 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
-const mailer = require('../../modules/mailer');
 
 const authConfig = require('../../config/auth');
 const User = require('../models/user');
